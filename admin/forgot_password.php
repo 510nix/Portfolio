@@ -57,8 +57,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     $message = 'Verification code sent to your email! Please check your inbox and spam folder.';
                     $step = '2';
                 } else {
-                    $message = 'Failed to send email. Please check your email configuration.<br><small>For testing, your code is: <strong>' . $reset_code . '</strong></small>';
-                    $step = '2'; // Continue anyway for testing
+                   $message = 'Failed to send email. Please check your email configuration.';
+                   $step = '1'; // Stay on the email input step
                 }
             }
         }

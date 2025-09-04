@@ -89,7 +89,7 @@ $bodyClass = $theme === 'dark' ? 'dark-mode' : '';
             <div class="about-content">
                 <div class="about-image" data-aos="fade-right">
                     <div class="image-frame">
-                        <img class="Image" src="images/2107089_nawer.JPG" alt="Profile">
+                        <img class="Image" src="images/2107089_nawer.jpeg" alt="Profile">
                     </div>
                 </div>
                 <div class="about-text" data-aos="fade-left">
